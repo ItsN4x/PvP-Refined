@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.itsn4x.pvprefined.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MiningDesyncMixin",
+    "ContainerDesyncMixin",
+    "ShieldSyncMixin",
+    "PlayerControllerMixin",
+    "ItemStackMixin",
+    "ScreenMixin"
+  ],
+  "client": [
+    "FireRenderMixin",
+    "TotemParticleMixin",
+    "ExplosionRenderMixin",
+    "ChatScreenMixin",
+    "LocalPlayerMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pvprefined",
+  "version": "${version}",
+  "name": "PvP Refined",
+  "description": "A client-side Fabric mod for competitive PvP servers. Fixes vanilla bugs, resolves desync issues, and provides QoL improvements. Safe for strict anti-cheat servers.",
+  "authors": [
+    "ItsN4x"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ItsN4x/PvP-Refined",
+    "sources": "https://github.com/ItsN4x/PvP-Refined"
+  },
+  "license": "MIT",
+  "icon": "assets/pvprefined/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.itsn4x.pvprefined.PvPRefined"
+    ],
+    "modmenu": [
+      "net.itsn4x.pvprefined.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "pvprefined.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "${fabric_loader_version}",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}

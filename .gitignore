@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+bin/
+run/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project
+*.class
+*.jar
+*.zip
+*.log
+out/
